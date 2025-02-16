@@ -31,7 +31,7 @@ const Home = () => {
 
   const openMessenger = () => {
     const fbUserId = "Hengkuntheamotorshop"; // Your Facebook User ID
-    const message = encodeURIComponent("Hello, I need support."); // Auto-filled message
+    const message = encodeURIComponent("ខ្ញុំចង់បង់រំលស់ម៉ូតូ"); // Auto-filled message
     window.open(`https://m.me/${fbUserId}?text=${message}`, "_blank");
   };
 
